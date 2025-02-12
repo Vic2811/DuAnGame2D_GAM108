@@ -238,6 +238,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6027734328990583866, guid: 93a1962f4630e5840a41b23efe32e280, type: 3}
+      propertyPath: lengthRange.y
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6477900813038714172, guid: 93a1962f4630e5840a41b23efe32e280, type: 3}
       propertyPath: m_Name
       value: PF Village Props - Elevator
@@ -262,7 +266,7 @@ GameObject:
   - component: {fileID: 692693423}
   - component: {fileID: 692693422}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: Bgr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -820,7 +824,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728143902}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -4768,7 +4772,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133429804}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -4798,7 +4802,7 @@ GameObject:
   - component: {fileID: 1216277610}
   - component: {fileID: 1216277609}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
